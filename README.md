@@ -1,6 +1,6 @@
 #bro ids for nodejs
 
-The idea is to do processing eveents from [BRO IDS](https://www.bro.org) in nodejs - this is a simple first step by by parsing the bro logfiles 'online' and
+The idea is to do processing events from [BRO IDS](https://www.bro.org) in nodejs - this is a simple first step by by parsing the bro log files 'online' and
 generate new events when any of the logs gets modified.
 
 ## the setup of bro itself
@@ -22,7 +22,7 @@ Maybe you simply want to store the events to Redis, Crate, Elasticsearch whateve
 Or imagine that you make your own version of fail2ban or scan back when you recognize a port scan.
 
 UNIX timestamps of the events are converted to JavaScript timestamps and event_source contains origin of Event (name of log in 3 version with path, without, and without extension .log).
-Eventlisteners must be registered to the basename of the log file, e.g. http.log would need a registration for 'http'.
+event listeners must be registered to the basename of the log file, e.g. http.log would need a registration for 'http'.
 
 
 ```
