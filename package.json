@@ -1,0 +1,28 @@
+{
+  "name": "bro-ids",
+  "version": "1.0.0",
+  "description": "Generates Node.js Events from BRO-IDS logfiles ^^",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "test/test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/megastef/node-bro-ids"
+  },
+  "keywords": [
+    "intrusion",
+    "detection"
+  ],
+  "author": "Stefan Thies",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/megastef/node-bro-ids/issues"
+  },
+  "homepage": "https://github.com/megastef/node-bro-ids" ,
+  "dependencies" : {
+      "tail-forever": "*"
+   }
+}
+
+
