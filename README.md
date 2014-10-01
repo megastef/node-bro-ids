@@ -1,6 +1,6 @@
 #bro ids for nodejs
 
-The idea is to do processing events from [BRO IDS](https://www.bro.org) in nodejs - this is a simple first step by by parsing the bro log files 'online' and
+The idea is to do processing events from [BRO IDS](https://www.bro.org) in nodejs - this is a simple first step  by parsing the bro log files 'online' and
 generate new events when any of the logs gets modified.
 
 ## the setup of bro itself

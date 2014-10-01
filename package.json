@@ -1,6 +1,6 @@
 {
   "name": "bro-ids",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Generates Node.js Events from BRO-IDS log files ^^",
   "main": "lib/index.js",
   "scripts": {
