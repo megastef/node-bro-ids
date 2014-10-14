@@ -1,6 +1,6 @@
 {
   "name": "bro-ids",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Generates Node.js Events from BRO-IDS log files ^^",
   "main": "lib/index.js",
   "scripts": {
@@ -21,8 +21,8 @@
   },
   "homepage": "https://github.com/megastef/node-bro-ids" ,
   "dependencies" : {
-      "tail-forever": "*",
-      "ls":           "*"
+      "tail-forever": "0.3.0",
+      "ls":           "0.1.0 "
    }
 }
 
