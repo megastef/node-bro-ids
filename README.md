@@ -10,6 +10,11 @@ Enable JSON logging to your 'site/local.bro'
 @load tuning/json-logs
 ```
 
+Or run bro in a terminal: 
+```
+bro -i eth0 -e 'redef LogAscii::use_json=T;' # logs are created in current directory
+```
+ 
 ## install this module
 
 ```
@@ -28,7 +33,7 @@ event listeners must be registered to the basename of the log file, e.g. http.lo
 ```
     var bro = require ('bro-ids')
     // directory with the bro logs
-    var b = new bro('./testdata')
+    var b = new bro('.') // current directory
     // start watching the files
     b.watch()
 
